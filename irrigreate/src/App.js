@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from './components/NavBar';
 
 import Summary from './components/summary/summary';
+import Status from './components/status/status';
+import Timer from './components/timer/timer'
 import MyChartComponent from './components/charts/flow_charts/data';
 import TotalUserPieChart from './components/charts/flow_charts/testChart';
 import { Line } from 'react-chartjs-2';
@@ -100,15 +102,24 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='papa'>
       <NavBar />
+      <div className='body'>
+      <div className='row1'>
       <div className="container">
         <Summary />
         <div style={graphStyle} className="graph">
           <Line id="home" options={options} data={canvasData} />
         </div>
         <TotalUserPieChart />
+        </div>
+        <div className='status'>
+        <Status/>
+        <Timer/>
+        </div>
+        </div>
       </div>
+
       {/* Other components */}
     </div>
   );

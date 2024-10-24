@@ -1,35 +1,7 @@
-/* src/components/NavBar.css */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #8dcc68;
-  }
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
   
-  .logo img {
-    height: 50px; /* Adjust the logo size */
-    transition: outline 0s ease;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .nav-links li a:hover {
-    color: #000000; /* Change color on hover */
-  }
-
-  .logo img:hover {
-    outline: 2px solid #000000;  /* Applies a 2px solid black border on hover */
-  }
-  
+}

@@ -1,0 +1,54 @@
+.connected-devices {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .container1{
+    display: flex;
+    flex-direction:column ;
+    width: 50%;
+    height: inherit;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-right: 2.5rem;
+    border-radius: 10px;
+  }
+  
+  
+  .device-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .device {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+  }
+  
+  .connected {
+    background-color: green;
+    color: white;
+  }
+  
+  .disconnected {
+    background-color: red;
+    color: white;
+  }
