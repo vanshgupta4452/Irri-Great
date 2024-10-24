@@ -1,10 +1,12 @@
 import React from 'react';
 import NavBar from './components/NavBar';
+
 import Summary from './components/summary/summary';
 import MyChartComponent from './components/charts/flow_charts/data';
 import TotalUserPieChart from './components/charts/flow_charts/testChart';
 import { Line } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler } from 'chart.js';
+import './App.css';
 
 // Register Chart.js components
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler);
@@ -100,15 +102,17 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Summary />
-      {/* <MyChartComponent /> */}
-      <div style={graphStyle} className='graph'>
-        <Line id="home" options={options} data={canvasData} />
+      <div className="container">
+        <Summary />
+        <div style={graphStyle} className="graph">
+          <Line id="home" options={options} data={canvasData} />
+        </div>
+        <TotalUserPieChart />
       </div>
-      <TotalUserPieChart />
       {/* Other components */}
     </div>
   );
+  
 }
 
 export default App;
