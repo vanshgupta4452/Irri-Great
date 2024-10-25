@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
-
+//import axios from 'axios';
 import Summary from './components/summary/summary';
 import Status from './components/status/status';
 import Timer from './components/timer/timer';
@@ -140,6 +140,29 @@ function App() {
     borderRadius: '0.375rem',
     padding: '0.5rem',
   };
+
+  // const Weather = () => {
+  //   const [weatherData, setWeatherData] = useState(null);
+  //   const [loading, setLoading] = useState(true);
+  //   const apiKey = 'afa00752584012542956f04e45cd7d80'; // Replace with your OpenWeather API key
+  //   const city = 'New Delhi'; // Change to your desired city
+  //   const units = 'metric'; // Use 'imperial' for Fahrenheit
+  
+  //   useEffect(() => {
+  //     const fetchWeather = async () => {
+  //       setLoading(true);
+  //       try {
+  //         const response = await axios.get(`https://api.openweathermap.org/data/3.0/weather?q=${city}&units=${units}&appid=${apiKey}`);
+  //         setWeatherData(response.data);
+  //       } catch (error) {
+  //         console.error('Error fetching weather data:', error);
+  //       } finally {
+  //         setLoading(false);
+  //       }
+  //     };
+  
+  //     fetchWeather();
+  //   }, [city, apiKey, units]);
 
   return (
     <div className='papa'>

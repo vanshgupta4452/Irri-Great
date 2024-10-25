@@ -9,10 +9,10 @@ function Status() {
         <p>2 devices connected</p>
         <ul className="device-list">
           <li className="device connected">SM_1</li>
-          <li className="device connected">FL_1</li>
+          <li className="device disconnected">FL_1</li>
           <li className="device disconnected">SM_2</li>
-          <li className="device connected">SM_3</li>
-          <li className="device connected">FL_2</li>
+          <li className="device disconnected">SM_3</li>
+          <li className="device disconnected">FL_2</li>
         </ul>
       </div>
     </div>
