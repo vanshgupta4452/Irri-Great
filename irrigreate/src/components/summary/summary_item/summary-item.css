@@ -1,0 +1,42 @@
+.summary-item {
+    background-color: #8dcc68;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .summary-item green-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontal center */
+    justify-content: center;
+     
+  }
+  
+  
+  
+  .summary-details {
+    font-size: 14px;
+  
+  }
+  
+  .summary-details h3 {
+    margin: 0;
+  }
+  .red-bg {
+    background-color: rgb(221, 152, 140);
+  }
+  
+  .green-bg {
+    background-color: rgb(175, 235, 175);
+  }
+  .blue-bg {
+    background-color: rgb(221, 219, 113);
+  }
+  .yellow-bg {
+    background-color: rgb(143, 162, 216);
+  }
+  /* You can add more classes if needed */
+  
+  

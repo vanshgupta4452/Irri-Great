@@ -1,0 +1,47 @@
+[
+  {
+      "queue": 2,
+      "value": 1,
+      "month": "0"
+  },
+  {
+      "queue": 3,
+      "value": 100,
+      "month": "1"
+  },
+  {
+      "queue": 4,
+      "value": 10,
+      "month": "2"
+  },
+  {
+      "queue": 5,
+      "value": 30,
+      "month": "3"
+  },
+  {
+      "queue": 6,
+      "value": 40,
+      "month": "4"
+  },
+  {
+      "queue": 7,
+      "value": 40,
+      "month": "5"
+  },
+  {
+      "queue": 8,
+      "value": 50,
+      "month": "6"
+  },
+  {
+      "queue": 9,
+      "value": 60,
+      "month": "7"
+  },
+  {
+      "queue": 10,
+      "value": 70,
+      "month": "8"
+  }
+]
